@@ -1,0 +1,19 @@
+{
+    "age": {
+        "Description": "age of the participant at the time of recording",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "pathology": {
+        "Description": "clinical diagnosis of the patient"
+    },
+    "eeg_montage": {
+        "Description": "electrodes arrangements"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "TaskName": "hfo",
+    "TaskDescription": "detection of High-Frequency Oscillation (HFO) events on scalp EEG for studying age related changes in case of pediatric patients ",
+    "Manufacturer": "Micromed",
+    "SamplingFrequency": 1024,
+    "PowerLineFrequency": 50,
+    "EEGReference": "G2",
+    "SoftwareFilters": "n/a",
+    "EEGPlacementScheme": "10-20 system"
+}
