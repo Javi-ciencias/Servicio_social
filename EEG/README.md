@@ -1,5 +1,5 @@
 # EEG
-Due to space limitations the dataset used in this section couldn't be uploaded. However it can be downloaded from https://openneuro.org/datasets/ds003555/versions/1.0.1/download. 
+Due to storage space limitations the dataset used in this section couldn't be uploaded. However it can be downloaded from https://openneuro.org/datasets/ds003555/versions/1.0.1/download. 
 OpenNeuro provides a full tutorial on how to download the data. The dataset has an open licence that allows everyone to download and use for academic purposes. 
 It also provides in-depth explanations on each folder and each recording. Feel free to explore it!
 
