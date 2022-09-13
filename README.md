@@ -1,3 +1,27 @@
+# Computational notebooks and experimental manuals for the teaching of electrophisiology
+
+During the last 6 months, I have been working with Dr. Erin McKiernan on the elaboration of code manuals in Python intending to be used for teaching the analysis of electrophysiological signals. 4 sets of manuals were made:
+
+• Electrocardiogram (ECG) analysis manual with data from patients with arrhythmia.
+
+• Electromyogram (EMG) analysis manual with activation data in pulses and fatigue in both hands.
+
+• Manual analysis of spirometry with EMG of the abdomen during a breathing protocol with inspiration, forced inspiration, expiration, and forced expiration.
+
+• Electroencephalogram (EEG) analysis manual for pediatric patients with epilepsy.
+
+All manuals can be found in a public GitHub repository (https://github.com/Javi-ciencias/Servicio_social).
+
+For the first manual, freely accessible data was imported from a database on physionet (https://physionet.org/content/mitdb/1.0.0/). First, a "notebook" was developed that detected P, Q, R, S, and T waves using Fourier transforms and critical point evaluation algorithms. From these markers, he calculated important parameters such as the length of the QRS complex, heart rate, and the length of the P and T waves. The data was fed into a convolutional neural network that was trained to detect arrhythmias. The elaboration of the network was developed step by step and it is explained how to identify overfitting and how to correct it. The final accuracy of the algorithm was 81%.
+
+The second manual stitches together a series of data previously recorded by Dr. McKiernan's students. In these data, there are recordings during short pulses of force and recordings during prolonged activations, all for both the right hand and the left hand. Filtered envelopes were first obtained for the EMG recordings. For pulse measurements, comparisons of EMG force vs. amplitude, main frequency vs. amplitude, and left vs. right-hand comparisons were made.
+
+The third manual consists of a spirometry analysis in which all directly calculable respiratory volumes and capacities are obtained and amplitudes are compared with the envelope EMG signal.
+
+Finally, the fourth manual consists of EEG analysis in pediatric patients with epilepsy. The data is freely accessible and can be downloaded from the site from the following link: https://openneuro.org/datasets/ds003555/versions/1.0.1/download. The data counts with 3 hours of measurement of 30 pediatric patients during sleep. All measurements are marked with the corresponding sleep stages. For the analysis, several sets of parameters were extracted and the efficiency of each was tested to identify the stage of sleep. Finally, an attempt was made to use seizure marking to train a program that could identify an epileptic seizure; however, the markings did not agree with electrophysiological expectations. Su uses cluster analysis to divide measurements into sleep phases and to estimate which segments contain an attack.
+
+Thank you for visiting this repository. It was done with a lot of work and to serve those with an interest in exploring electrophysiological signals. I hope you find it useful.
+
 # Prácticas computacionales y manuales experimentales para la enseñanza de Electrofisiología
 
 Durante los últimos 6 meses estuve trabajando con la Dra. Erin McKiernan en la elaboración de manuales de código en Python con el objetivo de que sirvan para la enseñanza del análisis de señales electrofisiológicas. Se hicieron 4 conjuntos de manuales:
