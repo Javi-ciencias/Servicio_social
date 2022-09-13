@@ -20,5 +20,7 @@ El tercer manual consiste en un análisis de espirometría en el que se obtienen
 
 Finalmente, el cuarto manual consiste en análisis de EEG en pacientes pediátricos de con epilepsia. Los datos son de libre acceso y se pueden descargar en el sitio desde la siguiente liga: https://openneuro.org/datasets/ds003555/versions/1.0.1/download. Los datos cuentas con 3 horas de medición de 30 pacientes pediátricos durante el sueño. Todas las mediciones están marcadas con las etapas de sueño correspondientes. Para el análisis se extrajeron varios conjuntos de parámetros y se probó la eficiencia de cada uno para identificar la etapa de sueño. Finalmente, se intentó usar el marcaje de ataques para entrenar un programa que pudiera identificar un ataque epiléptico; sin embargo, los marcajes no concordaban con las expectativas electrofisiológicas. Su utiliza análisis de clústeres para dividir las mediciones en fases de sueño y para hacer una estimación de cuáles segmentos contienen un ataque.
 
-Gracias por visitar este repositorio. Se realizó con mucho trabajo y con la intención de que le sirva a aquellos que les llame la atención el análisis de señales electrofisiológicas. Espero que te sea útil. 
-:)
+Gracias por visitar este repositorio. Se realizó con mucho trabajo y con la intención de que le sirva a aquellos con el inetrés de explorar señales electrofisiológicas. Espero que te sea útil. 
+
+
+
